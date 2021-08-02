@@ -405,7 +405,8 @@ models:
         description: The categories of the post
         items:
           type: reference
-          models: []
+          models:
+            - category
       - type: list
         name: tags
         label: Tags
